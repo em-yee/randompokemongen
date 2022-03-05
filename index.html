@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Random Pokemon Generator</title>
+</head>
+<body>
+  <div id="app">
+    <img :class="types" :src="sprites" :alt="name">
+    <h1 class="pokemon-name">{{name}}</h1>
+    <ul class="pokemon-type">
+        {{type1}}
+      <!-- <li>
+        {{ type2}}
+      </li> -->
+    </ul>
+
+    <br>
+
+    <button v-on:click="getPokemon()" :class="type1">Get a random Pokemon!</button>
+  </div>
+
+  <script src="https://unpkg.com/vue@3.0.5"></script>
+  <script src="app.js"></script>
+
+</body>
+</html>

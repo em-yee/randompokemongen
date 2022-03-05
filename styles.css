@@ -1,0 +1,162 @@
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#app {
+  width: 400px;
+  height: 100vh;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1,
+h3 {
+  margin-bottom: 1rem;
+  font-weight: normal;
+}
+
+h1.pokemon-name{
+  text-transform: capitalize;
+}
+
+ul.pokemon-type{
+  text-transform: capitalize;
+}
+
+img {
+  border-radius: 50%;
+  border: 5px #333 solid;
+  margin-bottom: 1rem;
+}
+
+.grass {
+  border-color: #4db931;
+  background-color: #4db931;
+}
+
+.fairy {
+  border-color: #FFE6FF;
+  background-color: #FFE6FF;
+  color: #333;
+}
+
+.bug {
+  border-color: #5eae49;
+  background-color: #5eae49;
+  color: black;
+}
+
+.dark {
+  border-color: #A1AACE ;
+  background-color: #A1AACE ;
+  color: black;
+}
+
+.dragon {
+  border-color: #E4F0FF ;
+  background-color: #E4F0FF ;
+  color: black;
+}
+
+.electric {
+  border-color: #fde18b ;
+  background-color: #fde18b ;
+  color: black;
+}
+
+.fight {
+  border-color: #E49B95 ;
+  background-color: #E49B95 ;
+  color: black;
+}
+
+.fire {
+  border-color: #ffa074 ;
+  background-color: #ffa074 ;
+  color: black;
+}
+
+.flying {
+  border-color: #b4d8ff ;
+  background-color: #b4d8ff ;
+  color: black;
+}
+
+.rock {
+  border-color: #FBF1CA ;
+  background-color: #FBF1CA ;
+  color: black;
+}
+
+.psychic {
+  border-color: #fdc8bf ;
+  background-color: #fdc8bf ;
+  color: black;
+}
+
+.poison {
+  border-color: #eb9eeb ;
+  background-color: #eb9eeb;
+  color: black;
+}
+
+.normal {
+  border-color: #F1FAFF ;
+  background-color: #F1FAFF ;
+  color: black;
+}
+
+.ground {
+  border-color: #f8b985 ;
+  background-color: #f8b985;
+  color: black;
+}
+
+.ghost {
+  border-color: #D6D7FF ;
+  background-color: #D6D7FF ;
+  color: black;
+}
+
+.steel {
+  border-color: #C8E1D9 ;
+  background-color: #C8E1D9 ;
+  color: black;
+}
+
+.water {
+  border-color: #56c0e4 ;
+  background-color: #56c0e4 ;
+  color: black;
+}
+
+button {
+  cursor: pointer;
+  display: inline-block;
+  background: #333;
+  color: white;
+  font-size: 18px;
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  transform: scale(0.98);
+}
